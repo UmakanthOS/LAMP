@@ -541,3 +541,6 @@ systemctl restart nginx
 
   echo "### Script End `date`###"
 } 2>&1 | tee /tmp/setup.log
+
+# Installing Intel custom software version
+sh ./intel-icx.sh
