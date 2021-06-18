@@ -47,7 +47,7 @@
                     "redisDeploySwitch":            { "value": true },
                     "sshPublicKey":                 { "value": "[parameters('sshPublicKey')]" },
                     "autoscaleVmCountMax":          { "value": 20 },
-                    "autoscaleVmSku":		        { "value": "Standard_DS3_v2" },
+                    "autoscaleVmSku":		        { "value": "Standard_DS8_v3" },
                     "mysqlPgresVcores":             { "value": 16 },
                     "mysqlPgresStgSizeGB":          { "value": 512 },
                     "fileServerType":               { "value": "azurefiles" },
